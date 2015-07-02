@@ -65,9 +65,8 @@ curriedSum(40)(2) // 42.
 > Curried functions can be called with 1 to all parameters. Each call returns a new function until all parameters are satisfied.
 
 ```js
-// R = Ramda
 let addThreeNumbers = (a,b,c) => a+b+c;
-
+// R = Ramda
 let curriedAddThreeNumbers = R.curry(addThreeNumbers);
 
 curriedAddThreeNumbers(1)(2)(3) // 6.
