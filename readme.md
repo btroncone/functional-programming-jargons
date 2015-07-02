@@ -42,6 +42,12 @@ let partial = sum.bind(null, 40);
 
 // Invoking it with `b`
 partial(2); //=> 42
+
+// Partial application with curried functions (R = Ramda)
+let addOne = R.map(R.add(1))
+
+//Invoking with number array
+addOne([1,2,3]) //=> [2,3,4]
 ```
 
 ---
@@ -56,7 +62,20 @@ let curriedSum = (a) => (b) => a + b;
 
 curriedSum(40)(2) // 42.
 ```
+> Curried functions can be called with 1 to all parameters. Each call returns a new function until all parameters are satisfied.
 
+```js
+// R = Ramda
+let addThreeNumbers = (a,b,c) => a+b+c;
+
+let curriedAddThreeNumbers = R.curry(addThreeNumbers);
+
+curriedAddThreeNumbers(1)(2)(3) // 6.
+curriedAddThreeNumbers(1,2,3) // 6.
+
+let twoNumbers = curriedAddThreeNumbers(1,2);
+twoNumbers(3) // 6.
+```
 ---
 
 ## Purity
@@ -184,4 +203,8 @@ randIter.next(); // Each exectuion gives a random value, expression is evluated 
 ---
 
 ## Chain
+---
+
+## References
+http://ramdajs.com/0.15/index.html
 ---
