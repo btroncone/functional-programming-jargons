@@ -206,5 +206,25 @@ randIter.next(); // Each exectuion gives a random value, expression is evluated 
 ---
 
 ## References
-http://ramdajs.com/0.15/index.html
+> Useful libraries and references for functional programming in JavaScript.
+
+#### Functional Utility Libraries
+* [Ramda](http://ramdajs.com/0.15/index.html)
+* [Lodash-fp](https://github.com/lodash/lodash-fp)
+
+#### Exercises
+* [Functional Programming in JavaScript](http://jhusain.github.io/learnrx/)
+
+#### Articles
+* [The Two Pillars of JavaScript - Part Two: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
+* [Introduction to Functional JavaScript](http://functionaljavascript.blogspot.com/2013/03/introduction-to-functional-javascript.html)
+* [Monad Laws and State](http://functionaljavascript.blogspot.com/2013/04/the-monad-laws-and-state-monad-in.html)
+* [Implementing Monads in JavaScript](http://functionaljavascript.blogspot.com/2013/03/implementing-monads-in-javascript.html)
+* [The Promise Monad](http://functionaljavascript.blogspot.com/2013/04/the-promise-monad-in-javascript.html)
+* [Functors](http://functionaljavascript.blogspot.com/2013/07/functors.html)
+* [Monads](http://functionaljavascript.blogspot.com/2013/07/monads.html)
+
+#### Videos
+* [Hardcore Functional Programming in JavaScript (Paid)](https://frontendmasters.com/courses/functional-javascript/)
+
 ---
