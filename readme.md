@@ -215,6 +215,7 @@ randIter.next(); // Each exectuion gives a random value, expression is evluated 
 * [Functional Programming in JavaScript](http://jhusain.github.io/learnrx/)
 
 #### Articles
+* [Mostly Adequate Guide to Functional JavaScript (Brian Lonsdorf)](https://github.com/DrBoolean/mostly-adequate-guide)
 * [The Two Pillars of JavaScript - Part Two: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
 * [Introduction to Functional JavaScript](http://functionaljavascript.blogspot.com/2013/03/introduction-to-functional-javascript.html)
 * [Monad Laws and State](http://functionaljavascript.blogspot.com/2013/04/the-monad-laws-and-state-monad-in.html)
